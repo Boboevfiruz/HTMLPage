@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    font-size: 2.5em;
+    text-align: center;
+}
+.headertitle{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.headertitle div{
+    display: flex;
+    font-size: small;
+}
+.possiton{
+    width: 350px;
+    position: relative;
+}.headertitle p{
+    color: white;
+    border: 1px solid white;
+}
+.circle{
+    margin-left: 500px;
+    margin-top:200px;
+    width: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.possiton{
+    display: flex;
+    z-index: 2;
+    padding: 20px;
+}
+.cont1{
+    display: flex;
+    padding-left: 200px;
+}
+.cont1item2{
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.cont1item1{
+    font-size: 2.5em;
+    padding-right: 30px;
+}
+button{
+    font-size: 20px;
+    color: white;
+    background-color: red;
+}
+.cont2{
+    justify-content: center;
+    align-items: center;
+    padding-left: 300px;
+
+}
+.cont2 img{
+    padding: 10px;
+}
+.featcher{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5em;
+}
+   h4{
+    font-size: 5em;
+    text-align: center;
+}
+.photo{
+    display: flex;
+}
+.photo img{
+    width: 33%;
+}
+.con3foot{
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    margin-right: 10px;
+}
+.cont4{
+   padding-left: 200px;
+   font-size: 2.5em
+}.grid1{
+    width: 250px;
+    background-color: rgb(72, 72, 82);
+    justify-content: center;
+}.item1{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}.item1 img{
+    
+    padding: 10px;
+    background-color: red;
+}.cont5{
+    display: flex;
+    justify-content: space-evenly ;
+}.title{
+    margin-top: 5em;
+    text-align: center;
+    font-size: 25px;
+}.thirdpage{
+    
+    text-align: center;
+}.left3{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+span{
+  
+    text-decoration: underline red;
+}
+.right3 img{
+    text-align: end;
+    width: 400px;
+    height: 400px;
+}
+.thirdpage1{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+.fourthpage1 img{
+    margin-top: 10px;
+    color: red;
+}
+.fourthpage1{
+    display: flex;
+}
+.fourthpage1 p{
+    margin: 0;
+    padding: 5px;
+}
+.fourthpage1 h2{
+   margin: 0;
+}
+.fourthpage{
+    display: flex;
+    justify-content: space-evenly;
+}
+.fifthpage{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+form input{
+    width: 90%;
+
+}
+.left5 img{
+    padding-right: 10px;
+    width: 500px;
+
+}
